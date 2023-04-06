@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #383838;
+}
+.modal-contenedor{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 350px;
+    text-align: center;
+    gap: 20px;
+    border-radius: 8px;
+    padding: 20px;
+}
+.boton{
+    background: none;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    border-radius: 6px;
+    padding: 8px 14px;
+    cursor: pointer;
+}
+.boton-primario{
+    background-color: #5A2EB1;
+    color: white;
+}
+
+.boton-secundario{
+    color: #5A2EB1;
+}
+
+.contenedor-boton{
+    display: flex;
+    gap: 20px;
+}
+.modal-texto{
+    font-weight: bold;
+}
